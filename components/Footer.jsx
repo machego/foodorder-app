@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from '../styles/Footer.module.css'
-import Image from 'next/image';
+import Image from "next/image";
+import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   return (
@@ -11,7 +10,7 @@ const Footer = () => {
       <div className={styles.item}>
         <div className={styles.card}>
           <h2 className={styles.motto}>
-            OH YES, WE DID. THE HOT PIZZA, WELL BAKED SLICE OF PIZZA.
+            OH YES, WE DID.THE HOT PIZZA, WELL BAKED SLICE OF PIZZA.
           </h2>
         </div>
         <div className={styles.card}>
@@ -40,7 +39,7 @@ const Footer = () => {
         <div className={styles.card}>
           <h1 className={styles.title}>WORKING HOURS</h1>
           <p className={styles.text}>
-            MONDAY UNTIL FRIDAY
+            MONDAY - FRIDAY
             <br /> 9:00 – 22:00
           </p>
           <p className={styles.text}>
